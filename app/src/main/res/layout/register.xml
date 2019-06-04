@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="1"
+    android:background="@mipmap/beijing2"
+    tools:context=".Register">
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="用户名： "
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="请填写登录账号"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="密码： "
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/password_1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="numberPassword"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="再次输入密码： "
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/password_2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="numberPassword"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="手机： "
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="请填写有效的手机号码"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="您的角色："
+            android:textSize="16sp"
+            />
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/btnMan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="子女"
+                android:checked="true"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/btnWoman"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="父母"
+                android:textSize="16sp"/>
+        </RadioGroup>
+    </TableRow>
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_two_state"
+        android:text="注册"
+        />
+
+</TableLayout>
