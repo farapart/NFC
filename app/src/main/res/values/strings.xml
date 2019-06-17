@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">NFC</string>
+    <string name="app_name">FlagMan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="produceButton">生成订单</string>
+    <string name="zero">0</string>
+    <string name="todo">TODO</string>
+    <string name="category">商品</string>
+    <string name="price">单价</string>
+    <string name="amount">数量</string>
+    <string name="single_total_price">总价</string>
+    <string name="total_price">总价格：</string>
+    <string name="transfer">开始传输</string>
+    <string name="finish">返回</string>
+    <string name="_0">0</string>
+    <string name="goBack">返回</string>
+    <string name="sendCart">发送</string>
+
 </resources>

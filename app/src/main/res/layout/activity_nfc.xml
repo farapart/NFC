@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360sp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nfcActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="110sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/category"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/price"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/amount"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/single_total_price"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+
+        <ImageView
+            android:id="@+id/imageView_first"
+            android:layout_width="110sp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@mipmap/transparent" />
+
+        <TextView
+            android:id="@+id/textView_first"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_amount_first"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_price_first"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+
+        <ImageView
+            android:id="@+id/imageView_second"
+            android:layout_width="110sp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@mipmap/transparent" />
+
+        <TextView
+            android:id="@+id/textView_second"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_amount_second"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_price_second"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+
+        <ImageView
+            android:id="@+id/imageView_third"
+            android:layout_width="110sp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@mipmap/transparent" />
+
+        <TextView
+            android:id="@+id/textView_third"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_amount_third"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_price_third"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp">
+
+        <ImageView
+            android:id="@+id/imageView_fourth"
+            android:layout_width="110sp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@mipmap/transparent" />
+
+        <TextView
+            android:id="@+id/textView_fourth"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_amount_fourth"
+            android:layout_width="85sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_price_fourth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_price"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView_total_price"
+            android:layout_width="70sp"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/confirmCart"
+            android:layout_width="120sp"
+            android:layout_height="70sp"
+            android:layout_margin="@android:dimen/app_icon_size"
+            android:background="#2196F3"
+            android:text="确认订单"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:ignore="ButtonStyle" />
+
+        <!--Button
+            android:id="@+id/retButton"
+            android:layout_width="120sp"
+            android:layout_height="70sp"
+            android:layout_margin="@android:dimen/app_icon_size"
+            android:background="#2196F3"
+            android:text="@string/finish"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:ignore="ButtonStyle" /-->
+    </LinearLayout>
+
+</LinearLayout>

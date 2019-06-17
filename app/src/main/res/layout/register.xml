@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/register"
     android:layout_width="match_parent"
@@ -59,12 +58,27 @@
             android:text="手机： "
             android:textSize="16sp"/>
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/phone"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:hint="请填写有效的手机号码"
             android:selectAllOnFocus="true"/>
     </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="身份证号： "
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/idCard"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="请填写有效的手机号码"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+
     <TableRow>
         <TextView
             android:layout_height="wrap_content"
@@ -79,7 +93,7 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/btnMan"
+                android:id="@+id/btnChildren"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="子女"
@@ -87,11 +101,19 @@
                 android:textSize="16sp"/>
 
             <RadioButton
-                android:id="@+id/btnWoman"
+                android:id="@+id/btnParents"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="父母"
                 android:textSize="16sp"/>
+
+            <RadioButton
+                android:id="@+id/btnSeller"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="商户"
+                android:textSize="16sp"/>
+
         </RadioGroup>
     </TableRow>
 

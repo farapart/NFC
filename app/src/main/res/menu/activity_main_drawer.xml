@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_set"
+            android:icon="@drawable/setflag"
+            android:title="不如立个Flag~" />
+        <item
+            android:id="@+id/nav_todo1"
+            android:icon="@drawable/setflag"
+            android:title="开发者的Flag1" />
+        <item
+            android:id="@+id/nav_todo2"
+            android:icon="@drawable/setflag"
+            android:title="开发者的Flag2" />
+        <item
+            android:id="@+id/nav_todo3"
+            android:icon="@drawable/setflag"
+            android:title="开发者的Flag3" />
+    </group>
+
+    <item android:title="其他">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/meow"
+                android:title="关于我们" />
+        </menu>
+    </item>
+
+</menu>
